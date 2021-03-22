@@ -145,6 +145,7 @@ body {
     .users-thumb{
         width: 0;
     }
+
     
 }
 
@@ -188,6 +189,29 @@ body {
         background-size:cover !important;
         
     }
+    .programs-link .programs-link-title{
+        font-size: 18px;
+        width: 150px;
+
+    }
+    .programs-link-image{
+        width: 40px;
+    }
+    .design-title{
+        font-size:35px;
+        line-height: 45px;
+        width: 400px;
+    }
+    .container .sending-title{
+         font-size: 50px;
+         line-height: 60px;
+     }
+     .sending-form-label .sending-form-input{
+         padding:24px  80px;
+     }
+    .sending-form-label .sending-form-button{
+padding: 17px 30px;
+     }
     
 }
 
@@ -227,8 +251,21 @@ body {
         line-height: 45px;
         width: 250px;
     }
-    
-
+    .design-content .design-title{
+        font-size:35px;
+        line-height: 35px;
+        width: 340px;
+    }
+.design-content .design-text{
+    font-size: 18px;
+    line-height: 22px;
+}
+.design-content .design-button{
+    padding: 8px 25px;
+}
+.footer-list .footer-item .footer-link{
+    width: 0%;
+}
 }
 
 @media(max-width:820px){
@@ -265,6 +302,37 @@ body {
     .fast .container {
         flex-direction: column;
     }
+    .container .programs-title{
+        font-size: 45px;
+        line-height: 55px;
+    }
+    .programs-list{
+        flex-direction: column;
+    }
+    .container .programs-list .programs-item{
+        width: 350px;
+    }
+    .programs-link-title{
+        width: 300px;
+
+padding-left: 10px;    }
+.customers .container .customers-title{
+    font-size: 32px;
+    margin-bottom: 10px;
+    
+}
+.introduction .introduction-image{
+    width: 60px;
+}
+.container .sending-info .sending-title{
+    font-size: 40px;
+}
+.sending .container{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 250px;
+}
 }
 
 @media(max-width:720px){
@@ -315,7 +383,21 @@ body {
         width: 240px;
 
     }
-    
+    .container .programs-list .programs-item{
+        width: 280px;
+    }
+    .design .container{
+        flex-direction: column;
+    }
+    .container .design-content .design-button{
+        margin-bottom: 60px;
+    }
+    .container .sending-info .sending-title{
+        font-size: 30px;
+    }
+    .sending .container{
+        margin-left: 200px;
+    }
 }
 
 @media(max-width:620px){
@@ -354,6 +436,24 @@ body {
         
     }
     .container .users-content{
+        margin-left: 150px;
+    }
+    .container  .design-content .design-title{
+        font-size:25px;
+        width: 200px;
+    }
+    .customers-list{
+        flex-direction: column;
+    }
+    .customers-list .customers-item{
+        width: 300px;
+        margin: 20px 0px;
+    }
+    .container .customers-subtitle{
+        margin-bottom: 20px;
+    }
+    
+    .sending .container{
         margin-left: 150px;
     }
 }
@@ -409,6 +509,35 @@ body {
         font-size: 18px;
         line-height: 28px;
     }
+    .container .design-photo{
+        width: 0%;
+    }
+    .container .design-content .design-button{
+        margin-bottom: 10px;
+    }
+    .design{
+        padding-bottom: 10px;
+    }
+    .container .customers-subtitle{
+     font-size: 16px;
+     width: 380px;
+    }
+    .sending-photo{
+        width: 0%;
+    }
+    
+    .sending .container{
+        margin-left: 100px;
+    }
+    .sending-back-image{
+        width: 0%;
+    }
+    .sending-circle-image{
+        width: 0%;
+    }
+    .sending .container .sending-title{
+        font-size: 25px;
+    }
 }
 
 @media(max-width:420px){
@@ -434,7 +563,10 @@ body {
         font-size: 23px;
         width: 180px;
     }
-
+    .container .customers-subtitle{
+        font-size: 16px;
+        width: 340px;
+       }
 }
 /* **********************all******************** */
 .all-button{
@@ -744,6 +876,7 @@ body {
     letter-spacing: -1.87579px;
     color: #19191B;
     margin-bottom: 60px;
+
 }
 
 .programs-list {
@@ -850,8 +983,8 @@ body {
 }
 
 .customers-title {
-    font-size: 60px;
-    line-height: 70px;
+    font-size: 50px;
+    line-height: 60px;
     text-align: center;
     letter-spacing: -1.87579px;
     color: #19191B;
@@ -861,7 +994,9 @@ body {
 .customers-subtitle {
     font-family: CircularStd;
     font-size: 21px;
-    line-height: 39px;
+    line-height: 31px;
+    
+    
     text-align: center;
     letter-spacing: -0.656526px;
     color: #696871;
