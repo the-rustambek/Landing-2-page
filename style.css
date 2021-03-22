@@ -124,6 +124,324 @@ body {
     font-family: 'Circular Std';
 }
 
+
+
+@media(max-width:1160px){
+    .container{
+        width: 1000px;
+    }
+    .all-title{
+        font-size: 35px;
+        width: 450px;
+    }
+    .users-content .users-title{
+        font-size: 35px;
+        line-height: 40px;
+        width: 290px;
+    }
+    .users-content .users-text{
+        width: 290px;
+    }
+    .users-thumb{
+        width: 0;
+    }
+    
+}
+
+@media(max-width:1020px){
+    .container{
+        width: 900px;
+    }
+    .all-top{
+        width: 0%;
+
+    }
+    .all-bottom{
+        width: 0%;
+    }
+    .all-content .all-title{
+        font-size: 30px;
+        line-height: 35px;
+        width:270px;
+    }
+    .all-text{
+        font-size: 16px;
+        width: 320px;
+    }
+    .form{
+        position: relative;
+    }
+    .form-label .form-input{
+        padding:15px 10px;
+        width: 330px;
+        padding-left: 80px;
+    }
+    .form-label .form-button{
+        padding: 5px 10px;
+        top: 8%;
+        right: 5%;
+      
+        position: absolute;
+        font-size: 16px;
+    }
+    .users{
+        background-size:cover !important;
+        
+    }
+    
+}
+
+@media(max-width:920px){
+    .container{
+        width: 800px;
+    }
+    .all-content .all-title{
+        font-size: 27px;
+        line-height: 30px;
+        width:240px;
+        
+    }
+    .all-text{
+        color: white;
+        width: 240px;
+        
+    }
+    .form{
+        position: relative;
+    }
+    .form-label .form-input{
+        padding:15px 10px;
+        width: 270px;
+        padding-left: 50px;
+    }
+    .form-label .form-button{
+        padding: 5px 10px;
+        top: 8%;
+        right: 13%;
+      
+        position: absolute;
+        font-size: 16px;
+    }
+    .fast-content .fast-content-title{
+        font-size: 35px;
+        line-height: 45px;
+        width: 250px;
+    }
+    
+
+}
+
+@media(max-width:820px){
+    .container{
+        width: 700px;
+    }
+    
+    /* .all-content{
+        margin-left: 200px;
+    } */
+    
+    .form{
+        position: relative;
+    }
+    .form-label .form-input{
+        padding:15px 10px;
+        width: 270px;
+        padding-left: 50px;
+    }
+    .form-label .form-button{
+        padding: 5px 10px;
+        top: 8%;
+        right: 1%;
+      
+        position: absolute;
+        font-size: 16px;
+    }
+    .all-content .all-text{
+        color: white;
+    }
+    .all-content .all-title{
+        color: white;
+    }
+    .fast .container {
+        flex-direction: column;
+    }
+}
+
+@media(max-width:720px){
+    .container{
+        width: 600px;
+    }
+    .form{
+        position: relative;
+    }
+    
+    .form-label .form-button{
+        padding: 5px 10px;
+        top: 8%;
+        left: 75%;
+      
+        position: absolute;
+        font-size: 16px;
+    }
+    .all-content .all-title{
+        font-size: 37px;
+        line-height: 30px;
+        width:300px;
+        color:#fff;
+    }
+    .all-content .all-text{
+        color:white;
+        width: 300px;
+    }
+    .nav-item .nav-link{
+        color: white;
+    }
+    .container .nav-title{
+        color: white;
+    }
+    .fast-list{
+        width: 200px;
+        
+    }
+    .container .fast-list .fast-item .fast-link{
+        flex-direction: column;
+        
+    }
+    .fast-item .fast-link-title{
+        font-size: 18px;
+    }
+    .users-content .users-title{
+        font-size: 30px;
+        width: 240px;
+
+    }
+    
+}
+
+@media(max-width:620px){
+    .container{
+        width: 500px;
+    }
+    .form{
+        position: relative;
+    }
+    
+    .form-label .form-button{
+        padding: 5px 10px;
+        top: 8%;
+        left: 88%;
+      
+        position: absolute;
+        font-size: 16px;
+    }
+    .all{
+        background-image: none !important;
+    }
+    .nav-item .nav-link{
+        color: black;
+    }
+    .container .nav-title{
+        color: black;
+    }
+    .all-content .all-text{
+        color: black;
+    }
+    .all-content .all-title{
+        color: black;
+    }
+    .users{
+        background-image: none !important;
+        
+    }
+    .container .users-content{
+        margin-left: 150px;
+    }
+}
+
+@media(max-width:520px){
+    .container{
+        width: 400px;
+    }
+    .all-content .all-text{
+        color: black;
+    }
+    .all-content .all-title{
+        color: black;
+        font-size: 25px;
+        width: 220px;
+    }
+    .form{
+        position: relative;
+    }
+    
+    .form-label .form-button{
+        padding: 5px 10px;
+        top: 8%;
+    left: 99%;
+      
+        position: absolute;
+        font-size: 19px;
+        color:whitesmoke;
+    }
+    .container .all-button{
+        display: block;
+        width: 30px;
+        margin-left: 150px;
+    }
+    .nav-item{
+        display: none;
+ 
+    }
+    .fast-content .fast-content-text{
+        font-size: 15px;
+        width: 200px;
+    }
+    .fast-content .fast-content-button{
+        padding: 7px;
+        width: 200px;
+    }
+    .container .users-title{
+        font-size: 30px;
+        
+    }
+    .container .users-text{
+        width: 200px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+}
+
+@media(max-width:420px){
+    .container{
+        width: 90%;
+    }
+    .form{
+        position: relative;
+    }
+    .form .form-label .form-button{
+        padding: 5px;
+        /* width: 110px; */
+        top: 8%;
+    left: 98%;
+    margin-left: 30px;
+      
+        position: absolute;
+        font-size: 18px;
+        color:whitesmoke;
+    }
+    
+    .container .users-title{
+        font-size: 23px;
+        width: 180px;
+    }
+
+}
+/* **********************all******************** */
+.all-button{
+    width: 30px;
+    display: none;
+}
+
 .all {
     width: 100%;
     background-image: url("./img/BG\ \(1\).png");
@@ -174,6 +492,7 @@ body {
 }
 
 .nav-link {
+    display: block;
     padding: 10px 15px;
     font-family: CircularStd;
     font-size: 16px;
@@ -382,18 +701,20 @@ body {
 }
 
 .users-title {
-    font-size: 60px;
-    line-height: 70px;
+    font-size: 50px;
+    line-height: 60px;
     letter-spacing: -1.87579px;
     color: #19191B;
     margin-bottom: 20px;
+    width: 420px;
 }
 
 .users-text {
-    font-size: 21px;
-    line-height: 39px;
+    font-size: 19px;
+    line-height: 30px;
     letter-spacing: -0.656526px;
     color: #696871;
+    width: 400px;
     margin-bottom: 61px;
 }
 
