@@ -727,7 +727,9 @@ padding-left: 10px;    }
        .container .sending-form .sending-form-label .sending-form-input{
            width: 180px;
        }
-       .container .sending-form .sending-form-label .sending-form-button{}
+       .container .sending-form .sending-form-label .sending-form-button{
+           width: 180px;
+       }
 }
 /* **********************all******************** */
 .all-button{
