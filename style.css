@@ -274,6 +274,9 @@ padding: 17px 30px;
     .container{
         width: 700px;
     }
+    .all .container{
+        width: 700px;
+    }
     
     /* .all-content{
         margin-left: 200px;
@@ -312,7 +315,7 @@ padding: 17px 30px;
         flex-direction: column;
     }
     .container .programs-list .programs-item{
-        width: 350px;
+        width: 400px;
     }
     .programs-link-title{
         width: 300px;
@@ -329,10 +332,7 @@ padding-left: 10px;    }
 .container .sending-info .sending-title{
     font-size: 30px;
 }
-.sending .container{
-    /* flex-direction: column; */
- /* padding-left: 250px;    */
-}
+
 .container .sending-form .sending-form-input{
     padding:15px 60px;
 }
@@ -345,10 +345,17 @@ padding-left: 10px;    }
     color: rgb(37, 44, 44);
 }
 
+.users .users-text{
+    color: black;
+}
+
 }
 
 @media(max-width:720px){
     .container{
+        width: 600px;
+    }
+    .all .container{
         width: 600px;
     }
     .form{
@@ -376,7 +383,7 @@ padding-left: 10px;    }
     
     .container .all-button{
         display: block;
-        margin-left: 380px;
+        margin-left: 390px;
     }
     .container .nav-list{
         display: none;
@@ -398,16 +405,17 @@ padding-left: 10px;    }
 
     }
     .container .programs-list .programs-item{
-        width: 280px;
+        width: 400px;
     }
     .design .container{
-        flex-direction: column;
+        /* flex-direction: column; */
+        flex-wrap: wrap-reverse;
     }
     .container .design-content .design-button{
         margin-bottom: 60px;
     }
-    .sending  {
-        display: block;
+    .sending .container  {
+        display: flex;
         align-items: center;
         justify-content: center;
         /* text-align: center; */
@@ -432,8 +440,25 @@ padding-left: 10px;    }
         width: 600px;
         height: 400px;
     }
-    .container .navbar .container{
-        width: 470px;
+    .container .customers-item{
+        width: 300px;
+        margin: 0px 15px;
+    }
+    .container .sending-title{
+        margin-top: 1px;
+        margin-bottom: 10px;
+    }
+    .users{
+        background-image: none !important;
+        
+    }
+    .users .container .users-content {
+        /* align-items: flex-start; */
+        /* justify-content: center; */
+    /* display: flex;
+     */
+     margin: 0 auto;
+     text-align: justify;
     }
 }
 
@@ -441,8 +466,14 @@ padding-left: 10px;    }
     .container{
         width: 500px;
     }
+    .all .container{
+        width: 500px;
+    }
     .form{
         position: relative;
+    }
+    .all .container .navbar .container{
+        width:500px;
     }
     
     .form-label .form-button{
@@ -453,13 +484,20 @@ padding-left: 10px;    }
         position: absolute;
         font-size: 16px;
     }
+    .all.container.navbar .container{
+        width:500px;
+
+    }
     .all{
         background-image: none !important;
         background-color: #F2F2F2;
     }
+    .all-all .all-content{
+        margin:0 auto;
+    }
     .container .all-button{
         display: block;
-        margin-left: 230px;
+        margin-left:auto;
     }
     .nav-item .nav-link{
         color: black;
@@ -479,7 +517,7 @@ padding-left: 10px;    }
     }
     
     .container .users-content{
-        margin-left: 150px;
+        margin-left: 100px;
     }
     .container  .design-content .design-title{
         font-size:25px;
@@ -501,6 +539,10 @@ padding-left: 10px;    }
        align-items: center;
        justify-content: center;
        padding-left: 150px;
+   }
+   .design .container{
+       
+       flex-direction: column-reverse;
    }
     .container .design-content .design-title{
         text-align: center;
@@ -528,7 +570,7 @@ padding-left: 10px;    }
         text-align: center;
     }
     .users .container .users-button{
-        width: 250px;
+        width: 220px;
         color: white;
     }
 }
@@ -537,9 +579,16 @@ padding-left: 10px;    }
     .container{
         width: 400px;
     }
+    .all .container{
+        width: 350px;
+    }
     .all-content .all-text{
         color: black;
     }
+     .all .container .navbar .container{
+        width: 300px;
+    }
+   
     .all-content .all-title{
         color: black;
         font-size: 25px;
@@ -549,19 +598,20 @@ padding-left: 10px;    }
         position: relative;
     }
     
+    
     .form-label .form-button{
-        padding: 5px 10px;
+        padding: 5px 5px;
         top: 8%;
-    left: 99%;
+    left: 100%;
       
         position: absolute;
-        font-size: 19px;
+        font-size: 17px;
         color:whitesmoke;
     }
     .container .all-button{
         display: block;
         width: 30px;
-        margin-left: 150px;
+        margin-left: auto;
     }
     .nav-item{
         display: none;
@@ -569,6 +619,10 @@ padding-left: 10px;    }
     }
     .fast .container{
         flex-direction: column;
+        /* margin-right: 70px; */
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
     }
     .fast-content .fast-content-text{
         font-size: 15px;
@@ -622,18 +676,37 @@ padding-left: 10px;    }
     .sending .container .sending-form  .sending-label .sending-form-button{
         width: 100px;
     }
+    .container .programs-list  .programs-item{
+        width: 270px;
+    }
+    .container .design-content .design-text{
+        width: 250px;
+    }
+    .container .design-content .design-button{
+        width: 220px;
+    
+    }
+    .container .form-label .form-button{
+        width: 120px;
+        margin-left: 10px;
+    }
 }
 
 @media(max-width:420px){
     .container{
         width: 90%;
     }
+    .all .container{
+        width: 300px;
+    }
+    .all .container .navbar .container{
+        width: 300px    ;
+    }
     .form{
         position: relative;
     }
     .form .form-label .form-button{
-        padding: 5px;
-        /* width: 110px; */
+        padding: 6px 19px 6px 8px;
         top: 8%;
     left: 98%;
     margin-left: 30px;
@@ -738,12 +811,11 @@ padding-left: 10px;    }
 
 .nav-title {
     padding: 10px;
-    margin-right: 44px;
     font-family: CircularStd;
     font-size: 30px;
     line-height: 40px;
     letter-spacing: -0.750316px;
-    color: #19191B;
+    color: #19191B;@
 }
 
 .all-title {
@@ -1066,6 +1138,7 @@ padding-left: 10px;    }
     text-align: center;
     letter-spacing: -0.656526px;
     color: #FFFFFF;
+    transition: 0.3s;
 }
 
 .design-photo {
@@ -1132,6 +1205,10 @@ padding-left: 10px;    }
 
 .introduction {
     display: flex;
+}
+.design-button:hover{
+    color: black;
+    
 }
 
 .introduction-image {
