@@ -724,6 +724,12 @@ padding-left: 10px;    }
         font-size: 16px;
         width: 340px;
        }
+       .container .sending-form .sending-form-label .sending-form-input{
+           width: 180px;
+       }
+       .container .sending-form .sending-form-label .sending-form-button{
+           width: 180px;
+       }
 }
 /* **********************all******************** */
 .all-button{
